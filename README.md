@@ -8,16 +8,14 @@ Create your own free unlimited cloud storage! Our tool uses GitHub-as-a-storage 
 *TL;DR: you need to create a GitHub token and add it to deployed repo as GITHUB_TOKEN environment variable.* 
 
 Or just watch a video:
-
-[![Morejust storage installation demo](https://raw.githubusercontent.com/morejust/orgb1/bc1a5a9688ac7951473e3b0b18ea5dac/Screenshot%202019-01-01%20at%2018.32.41.png)](https://www.youtube.com/watch?v=Srz5RMnDv6s)
-
+[![Morejust storage installation demo](https://img.youtube.com/vi/Srz5RMnDv6s/0.jpg)](https://www.youtube.com/watch?v=Srz5RMnDv6s)
 
 ### Step-by-step guide
 
 #### :one: Create GitHub token
 1. Register on GitHub and go to [Settings -> Developer Settings -> Personal Access Tokens -> Generate new token](https://github.com/settings/tokens/new)
 2. Give it a random name, select **public repo** and scroll below and smash **Generate**. You don't have to add any additional rights if you want to store your files on public repositories.
-<img src="https://raw.githubusercontent.com/morejust/orgb1/ee1ec84391449b16ed643d3b629b6f0b/Screenshot%202018-12-27%20at%2014.40.19.png" height="300">
+<img src="https://habrastorage.org/webt/oe/z9/3x/oez93xzvrajn4sosho15yfptkgk.png" height="300">
 3. Copy generated GitHub token and go to the next part: deployment.
 
 #### :two: Deploy to Heroku
@@ -26,10 +24,10 @@ Heroku allows to create free small machines and deploy from GitHub in one click.
 
 1. Press the button below to deploy with one click
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/morejust/store/tree/heroku-deploy)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kirillovmr/store/tree/heroku-deploy)
 
 2. Choose any app name you like
-<img src="https://raw.githubusercontent.com/morejust/orgb1/1c5eff2238a0abcf387205626bf804f2/Create-heroku.png" height="300">
+<img src="https://habrastorage.org/webt/bh/vh/nv/bhvhnvh6sgxcnjshurnnp2stmfw.png" height="300">
 
 3. Click the 'Manage App' at the bottom of the page
 
@@ -37,7 +35,7 @@ Heroku allows to create free small machines and deploy from GitHub in one click.
 
 5. Set the *key* to **GITHUB_TOKEN** and the *value* to the generated on the previous steps GitHub token.
 
-<img src="https://raw.githubusercontent.com/morejust/orgb1/c9cbc1a17746e52d1accb9d14e0f9b8b/Screenshot%202018-12-26%20at%2002.20.27.png" height="300">
+<img src="https://habrastorage.org/webt/ot/0n/j6/ot0nj6u-glgn-_j3i6g9v8yy4hg.png" height="300">
 
 6. Smash 'Open app' and enjoy!
 
