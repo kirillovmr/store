@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://kirillovmr.github.io/store/",
   "scripts": {
     "dev": "source .env; nodemon app.js",
     "prestart": "source .env; npm run build-front",

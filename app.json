@@ -1,7 +1,7 @@
 {
   "name": "Morejust.store",
   "description": "Create your own free unlimited cloud storage",
-  "repository": "https://github.com/morejust/store",
+  "repository": "https://github.com/kirillovmr/store",
   "logo": "https://avatars1.githubusercontent.com/u/43348295?s=200&v=4",
   "keywords": ["node", "express", "github", "storage", "backend", "cloud"],
   "image": "heroku/nodejs"
