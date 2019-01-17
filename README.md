@@ -8,6 +8,7 @@ Create your own free unlimited cloud storage! Our tool uses GitHub-as-a-storage 
 *TL;DR: you need to create a GitHub token and add it to deployed repo as GITHUB_TOKEN environment variable.* 
 
 Or just watch a video:
+
 [![Morejust storage installation demo](https://img.youtube.com/vi/Srz5RMnDv6s/0.jpg)](https://www.youtube.com/watch?v=Srz5RMnDv6s)
 
 ### Step-by-step guide
