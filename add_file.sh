@@ -36,7 +36,7 @@ fi
 mkdir -p $BLOCKS_FOLDER_PATH
 cd $BLOCKS_FOLDER_PATH
 
-git clone -b master --depth 1 https://$USERNAME:$GITHUB_TOKEN@github.com/$GITHUB_ACCOUNT/$BLOCKNAME.git
+git clone -b main --depth 1 https://$USERNAME:$GITHUB_TOKEN@github.com/$GITHUB_ACCOUNT/$BLOCKNAME.git
 
 cd $BLOCKNAME
 
